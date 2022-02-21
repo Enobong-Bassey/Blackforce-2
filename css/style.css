@@ -54,6 +54,15 @@ img {
     height: 60vh;
   }
 
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    grid-gap: 80px;
+    padding: 100px;
+    height: 60vh;
+  }
+/*
  .grid-container3 {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -62,7 +71,7 @@ img {
     padding: 40px;
     height: 20vh;
   }
-
+*/
   .btn {
     background-color: DodgerBlue;
     border: none;
@@ -100,6 +109,15 @@ img {
      height: 50vh;
    }
 
+   .grid-container3 > div {
+    /*background-color: rgb(179, 216, 228);*/
+     border-radius: 20px;
+     text-align: center;
+     padding: 3px;
+     color: whitesmoke;
+     height: 20vh;
+   }
+
    .item12 {
        background-color: rgb(207, 196, 255);
    }
@@ -117,7 +135,7 @@ img {
 }
 
 i {
-    font-size: 14px;
+    font-size: 12px;
     font-family: Roboto;
     color: black;
     padding: 1px;
@@ -128,10 +146,23 @@ i {
 }
 
 .item-msg {
-    text-align: center;
+    text-align: left;
     padding: 10px;
     font-size: 16px;
     color: black;
+}
+
+.fa-car-garage {
+    font-size: 14px;
+    font-family: Roboto;
+    float: left;
+    padding-left: 30px;
+}
+
+#ph-no {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Roboto;
 }
 
    .item1 {
@@ -268,12 +299,11 @@ h2 {
 }
 
 .fa {
-    padding: 25px;
-    font-size: 50px;
+    padding: 20px;
+    font-size: 1em;
     width: 20px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
-    border-radius: 50%;
   }  
 
 .fa-facebook {
