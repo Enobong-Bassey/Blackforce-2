@@ -1,0 +1,316 @@
+/* body {
+    background-color: rgb(194, 194, 194);
+} */
+
+img {
+  border: 15px;
+  border-radius: 50%;
+}
+
+.logo-section {
+    display: block;
+    height: 7vh;
+    background-color: beige;
+}
+
+.nav {
+    background-color: rgb(142, 135, 187);
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    height: 7vh;
+}
+
+#photo-line1 {
+    text-align: center;
+    border: 10px;
+    display: inline-block;
+} 
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    grid-gap: 5px;
+    padding: 5px;
+    height: 40vh;
+  }
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    grid-gap: 5px;
+    padding: 5px;
+    height: 10vh;
+  }
+
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    grid-gap: 80px;
+    padding: 100px;
+    height: 60vh;
+  }
+
+ .grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    grid-gap: 80px;
+    padding: 40px;
+    height: 20vh;
+  }
+
+  .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .linker {
+      font-family: Roboto;
+  }
+  
+  .grid-container > div {
+   /*background-color: rgb(179, 216, 228);*/
+    border-radius: 20px;
+    text-align: center;
+    padding: 3px;
+  }
+
+  .grid-container4 > div {
+    /*background-color: rgb(179, 216, 228);*/
+     border-radius: 20px;
+     text-align: center;
+     padding: 1px;
+     color: whitesmoke;
+   }
+
+   .grid-container2 > div {
+    /*background-color: rgb(179, 216, 228);*/
+     border-radius: 20px;
+     text-align: center;
+     padding: 3px;
+     color: whitesmoke;
+     height: 50vh;
+   }
+
+   .item12 {
+       background-color: rgb(207, 196, 255);
+   }
+
+   .item22 {
+    background-color: rgb(255, 196, 235);
+}
+
+.item32 {
+    background-color: bisque;
+}
+
+.city {
+    color: black;
+}
+
+i {
+    font-size: 14px;
+    font-family: Roboto;
+    color: black;
+    padding: 1px;
+}
+
+.logo {
+    text-align: left;
+}
+
+.item-msg {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+   .item1 {
+       background-color: bisque;
+   }
+
+   .item2 {
+    background-color: rgb(255, 196, 235);
+}
+
+.item3 {
+    background-color: rgb(207, 196, 255);
+}
+
+.item4 {
+    background-color: rgb(255, 196, 196);
+}
+
+.item5 {
+    background-color: rgb(196, 255, 223);
+}
+
+  #work-h {
+    text-align: center;
+    color: aliceblue;
+  }
+
+  .contact-h {
+    text-align: center;
+  }
+
+  .work-m {
+      color: aliceblue;
+  }
+
+  .grid-container > div > div {
+      text-align: center;
+  }
+
+  .picture-message {
+    font-family: Roboto;
+    color: black;
+    width: 150px;
+    font-size: 11px;
+  }
+  
+
+p {
+    padding: 20px;
+   /* border: 4px solid rgb(108, 108, 189); */
+    border-radius: 20px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: small;
+    margin: 90px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+li a {
+    float: right;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 12px 40px 12px 40px;
+    font-family: 'Andika';
+    font-size: 18px;
+}
+
+li a:hover {
+    color: whitesmoke;
+    background-color: #777;
+    text-decoration: none;
+}
+
+.uppermost {
+    background-color: beige;
+    height: 100vh;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(142, 105, 204);
+    width: 100%;
+    height: 85vh;
+    background-color: beige;
+}
+
+.bi {
+    font-size: xx-large;
+    float: right;
+    padding: 0px 10px 50px 0px;
+    margin: 50px;
+    position: relative;
+}
+
+.work {
+    background-color: rgb(145, 150, 151);
+    height: 100vh;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font-size: 72px;
+    font-family: Lato;
+    text-align: center;
+    color: white;
+    font: bold;
+    padding-top: 50px;
+}
+
+.contact {
+    background-color: rgb(204, 204, 173);
+    height: 100vh;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.fa {
+    padding: 25px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }  
+
+.fa-facebook {
+    background: #3B5998;
+    border-radius: 50%;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    border-radius: 50%;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    border-radius: 50%;
+    color: white;
+  }
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(110, 111, 116); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(188, 200, 231); /* Add a dark-grey background on hover */
+  }
+  
